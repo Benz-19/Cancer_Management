@@ -1,0 +1,4 @@
+|--- radius_mean <= 18.76
+|   |--- class: 0
+|--- radius_mean >  18.76
+|   |--- class: 1
