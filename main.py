@@ -13,7 +13,7 @@ from agents.treatment_clustering_agent import TreatmentClusteringAgent
 from agents.evaluation_agent import EvaluationAgent
 from agents.decision_rule_agent import DecisionRuleAgent
 
-# SYSTEM START
+
 reset()
 system_start = time.time()
 
@@ -124,5 +124,7 @@ print("\nSUMMARY")
 print(f"Total Patients: {len(X)}")
 print(f"Selected Features: {features}")
 print(f"Critical Patients: {len(critical_patients)}")
+print(f"Total Patients Given Drugs: {len(drug_patients)}")
+print(f"Total Patients Given Advice: {len(advice_patients)}")
 print(f"Critical-only Features: {critical_features}")
 print(f"Total System Execution Time: {system_end - system_start:.2f} seconds")
